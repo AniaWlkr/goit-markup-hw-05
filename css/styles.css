@@ -129,7 +129,7 @@ address {
   height: 100%;
 
   background-color: rgba(0, 0, 0, 0.2);
-  transition: opacity 500ms linear;
+  transition: all 500ms linear;
 }
 
 .backdrop.is-hidden {
@@ -137,7 +137,7 @@ address {
   visibility: hidden;
   pointer-events: none;
 
-  transition: opacity 500ms linear 700ms;
+  transition: all 500ms linear 700ms;
 }
 
 .backdrop.is-hidden .modal {
