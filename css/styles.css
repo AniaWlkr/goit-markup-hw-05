@@ -190,6 +190,10 @@ address {
   border-bottom: 1px solid var(--heade-border);
 }
 
+.header.index {
+  border-style: none;
+}
+
 .header .container,
 .navigation,
 .navigation-list,
